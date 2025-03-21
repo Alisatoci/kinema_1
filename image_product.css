@@ -1,0 +1,30 @@
+body {
+    .main__img--container {
+        margin-top: 70px;
+        width: 500px;
+        height: 650px;
+    }
+
+    .main__newmovies {
+        background: #141414;
+        min-height: 100vh;   
+        width: 100%;
+    }
+
+    .main__newmovies img {
+        width: 500px;
+        height: 650px;
+     }
+
+     .main__movies {
+        background: #141414;
+        min-height: 100vh;   
+        width: 100%;
+    }
+
+    .main__movies img {
+        width: 500px;
+        height: 650px;
+    }
+
+}
