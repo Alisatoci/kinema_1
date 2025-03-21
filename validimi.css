@@ -1,0 +1,54 @@
+/* Vendosja e një sfondi me imazh për të gjithë faqen */
+body {
+    background: url('360_F_689499531_MeYeI1VVavgYQRzz0S3JxkQ9VxzgYZQh.jpg'
+    ) no-repeat center center/cover;
+    background-attachment: fixed; /* Bën që imazhi të mos lëvizë gjatë skrollimit */
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Stilizimi i seksionit të validimit */
+.validation-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Sfonda e zezë me transparencë */
+    color: white; /* Teksti i bardhë */
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3); /* Hije e lehtë */
+}
+
+/* Stilizimi i inputeve */
+.validation-container input[type="text"],
+.validation-container input[type="email"],
+.validation-container input[type="button"] {
+    background-color: rgba(50, 50, 50, 0.7); /* Input me sfond gjysmë-transparent */
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+/* Stilizimi i butonit */
+.validation-container input[type="button"] {
+    background-color: red;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.validation-container input[type="button"]:hover {
+    background-color: darkred;
+}
+
+/* Stilizimi i etiketave (labels) */
+.validation-container label {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
